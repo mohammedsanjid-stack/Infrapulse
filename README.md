@@ -20,8 +20,8 @@ AWS EC2 (t3.micro, RHEL 10.2), Docker, Docker Compose, Prometheus, Grafana 12.3.
 3. Open an SSH tunnel: `ssh -i <key>.pem -L 3000:127.0.0.1:3000 -L 9090:127.0.0.1:9090 ec2-user@<EC2-PUBLIC-IP>`
 4. Open Grafana at `http://localhost:3000` and Prometheus at `http://localhost:9090`.
 
-## Full Report
-See [InfraPulse_Report.pdf](InfraPulse_Report.pdf) for the full walkthrough with screenshots.
+   ## Full Report
+   See [InfraPulse Document](InfraPulse%20Document.pdf) for the full walkthrough with screenshots.
 
 ## Author
 Mohammed Sanjid, Cloud & DevOps Trainee
